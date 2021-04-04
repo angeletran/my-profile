@@ -1,0 +1,136 @@
+/* Colors and fonts */
+
+h1 {
+  color: #B1E9EA;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+h2 {
+  color: #aee1e1;
+}
+
+
+body {
+  background-color: white;
+  color:rgb(68,68,68);
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+
+p {
+  text-align: auto;
+}
+
+
+a {
+  text-decoration: none;
+  color: #CD6666;
+  font-weight: bold;
+}
+
+
+a:hover {
+  color: #31326f;
+}
+
+
+
+i {
+  font-size : 50px;
+}
+
+
+
+
+/* Custom design with class*/
+
+
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.div1 {
+    background: white;
+    padding: 60px;
+    margin: 50px 150px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+
+.div {
+  background-color: #fbe1e1;
+  padding: 10px;
+    margin: 100px 150px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+
+.button {
+  background-color: #CD6666;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+
+.list {
+list-style: none;
+padding-left: 0px;
+text-align: center;
+}
+
+
+.list li {
+  display: inline;
+  padding:10px;
+}
+
+
+.link_after {
+  margin-bottom: 40px;
+}
+
+.interests {
+  color: white;
+}
+
+
+.title {
+  font-family: 'Neucha', cursive;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+
+
+
+/* Design ajustments using id */
+
+
+#photo {
+  border: 5px solid black;
+  width: 100px;
+  height: 100px;
+  border: none;
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    color: red;
+  }
+}
+
+
+
